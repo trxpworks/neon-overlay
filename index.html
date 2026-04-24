@@ -27,28 +27,45 @@
       </a>
       <nav>
         <a href="#features">Features</a>
-        <a href="#styles">Styles</a>
+        <a href="#styles">Themes</a>
+        <a href="#releases">Releases</a>
         <a href="#download">Download</a>
       </nav>
-      <a class="header-cta" href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Setup.exe">Get Overlay</a>
+      <a class="header-cta" href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Setup.exe"
+        >Get Overlay</a
+      >
     </header>
 
     <main id="top">
       <section class="hero reveal">
         <div class="hero-copy">
           <p class="eyebrow">PikaNetwork BedWars Utility</p>
-          <h1>Spot Sweaty Lobbies Faster. Queue Smarter.</h1>
+          <h1>Lobby Intel With Pro-Level Style And Zero Clutter.</h1>
           <p>
-            Neon Overlay gives instant BedWars stat context with a polished overlay, fast lookups, clipboard auto-scans,
-            and fully customizable styles for your session flow.
+            Neon Overlay gives instant BedWars stat context with fast player fetch, threat scoring, smart alerts, auto
+            lobby scans, and a polished desktop UI that stays readable mid-game.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Portable.exe">Download Portable</a>
-            <a class="btn btn-secondary" href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Setup.exe">Download Installer</a>
+            <a
+              id="heroPortableBtn"
+              class="btn btn-primary"
+              href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Portable.exe"
+              >Download Portable</a
+            >
+            <a
+              id="heroSetupBtn"
+              class="btn btn-secondary"
+              href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Setup.exe"
+              >Download Installer</a
+            >
+            <a id="heroReleaseBtn" class="btn btn-ghost" href="https://github.com/trxpworks/neon-overlay/releases/latest"
+              >View Release Notes</a
+            >
           </div>
           <div class="hero-chips">
-            <span>Fast API Fetch</span>
-            <span>Auto Lobby Support</span>
+            <span>Threat Score</span>
+            <span>Smart Alerts</span>
+            <span>Auto Update Checker</span>
             <span>1.8.9 Friendly</span>
           </div>
         </div>
@@ -59,20 +76,20 @@
               <span class="dot red"></span>
               <span class="dot amber"></span>
               <span class="dot green"></span>
-              <p>Neon Overlay | Lobby Scan</p>
+              <p>Neon Overlay | Live Lobby Scan</p>
             </div>
             <div class="preview-table">
               <div class="row head">
-                <span>Player</span><span>FKDR</span><span>WS</span><span>Status</span>
+                <span>Player</span><span>FKDR</span><span>Threat</span><span>Status</span>
               </div>
               <div class="row">
-                <span>revenqe_</span><span>5.76</span><span>53</span><span class="ok">Live</span>
+                <span>revenqe_</span><span>5.76</span><span class="threat high">89</span><span class="ok">Tracked</span>
               </div>
               <div class="row">
-                <span>Whisker_fury</span><span>2.01</span><span>11</span><span class="warn">Hidden/API</span>
+                <span>Whisker_fury</span><span>2.01</span><span class="threat medium">54</span><span class="warn">API Hidden</span>
               </div>
               <div class="row">
-                <span>BadJeans</span><span>-</span><span>-</span><span class="err">NICK?</span>
+                <span>BadJeans</span><span>-</span><span class="threat low">-</span><span class="err">Nicked?</span>
               </div>
             </div>
           </div>
@@ -83,52 +100,189 @@
         <article class="feature-card reveal">
           <h2>Manual + Auto Lobby</h2>
           <p>
-            Scan pasted tab/chat text manually or run clipboard watcher auto mode to refresh your table as your copied
-            player list changes.
+            Scan copied tab/chat text manually or run clipboard watcher mode so your lobby table refreshes as soon as
+            new player text is copied.
           </p>
         </article>
         <article class="feature-card reveal">
-          <h2>Session Intelligence</h2>
+          <h2>Threat + Session Tracking</h2>
           <p>
-            Track joins/leaves between scans, sort by FKDR/WLR/Wins, and quickly identify risky lobbies before committing
-            to fights.
+            Rank players by threat score, see joins/leaves between scans, and sort quickly by FKDR, wins, WLR, or
+            threat level.
           </p>
         </article>
         <article class="feature-card reveal">
-          <h2>Theme + Style Engine</h2>
+          <h2>Smart Alerts</h2>
           <p>
-            Switch between Apple-inspired, Neon Tech, ExitLag-inspired, and Minecraft style packs with accent and
-            transparency controls.
+            Set custom thresholds for FKDR, WLR, win streak, and threat score. Neon Overlay highlights dangerous rows
+            instantly and can play alert sounds.
+          </p>
+        </article>
+        <article class="feature-card reveal">
+          <h2>Auto Update Check</h2>
+          <p>
+            Built-in update checker reads your latest GitHub release and gives users a one-click path to the newest
+            setup or portable build.
           </p>
         </article>
       </section>
 
-      <section id="styles" class="styles-section reveal">
-        <div class="styles-copy">
-          <p class="eyebrow">Design Language</p>
-          <h2>High-End Motion Meets Clean Utility</h2>
+      <section id="styles" class="themes-section">
+        <div class="section-header reveal">
+          <p class="eyebrow">Theme Showcase</p>
+          <h2>Each Style Has A Distinct Personality</h2>
           <p>
-            Built with layered depth, glass surfaces, bold typography, and purposeful transitions so the overlay feels
-            premium without slowing your game flow.
+            Pick a style based on your vibe and readability preference. Every theme changes much more than color alone:
+            typography, borders, depth, and panel language all shift.
           </p>
         </div>
-        <div class="style-swatches">
-          <div class="swatch apple">Apple</div>
-          <div class="swatch neon">Neon</div>
-          <div class="swatch exitlag">ExitLag</div>
-          <div class="swatch mc">Minecraft</div>
+
+        <div class="themes-grid">
+          <article class="theme-card theme-apple reveal">
+            <div class="theme-head">
+              <h3>Apple</h3>
+              <span class="theme-pill">Clean Glass</span>
+            </div>
+            <p>Frosted surfaces, smooth gradients, and premium spacing for calm, high-clarity sessions.</p>
+            <div class="theme-mini-preview">
+              <span class="line"></span><span class="line short"></span><span class="line"></span>
+            </div>
+            <ul class="theme-points">
+              <li>Best for minimal, modern look</li>
+              <li>Great text contrast and low noise</li>
+            </ul>
+          </article>
+
+          <article class="theme-card theme-neon reveal">
+            <div class="theme-head">
+              <h3>Neon Tech</h3>
+              <span class="theme-pill">Glow UI</span>
+            </div>
+            <p>High-energy accents and futuristic panel edges while keeping data readable during fast gameplay.</p>
+            <div class="theme-mini-preview">
+              <span class="line"></span><span class="line short"></span><span class="line"></span>
+            </div>
+            <ul class="theme-points">
+              <li>Best for streamer/clip aesthetic</li>
+              <li>Strong visual focus points</li>
+            </ul>
+          </article>
+
+          <article class="theme-card theme-exitlag reveal">
+            <div class="theme-head">
+              <h3>ExitLag Inspired</h3>
+              <span class="theme-pill">Competitive</span>
+            </div>
+            <p>Sharper, tactical panel design inspired by esports dashboards with dense but structured information.</p>
+            <div class="theme-mini-preview">
+              <span class="line"></span><span class="line short"></span><span class="line"></span>
+            </div>
+            <ul class="theme-points">
+              <li>Best for tryhard/competitive focus</li>
+              <li>High signal-to-noise layout</li>
+            </ul>
+          </article>
+
+          <article class="theme-card theme-minecraft reveal">
+            <div class="theme-head">
+              <h3>Minecraft</h3>
+              <span class="theme-pill">Retro Pixel</span>
+            </div>
+            <p>Pixel-font, blocky borders, and nostalgic textures that match the classic Minecraft identity.</p>
+            <div class="theme-mini-preview">
+              <span class="line"></span><span class="line short"></span><span class="line"></span>
+            </div>
+            <ul class="theme-points">
+              <li>Best for OG Minecraft vibe</li>
+              <li>Unique visual identity on stream</li>
+            </ul>
+          </article>
         </div>
+      </section>
+
+      <section id="releases" class="releases-section">
+        <article class="release-overview reveal">
+          <p class="eyebrow">Live From GitHub</p>
+          <h2>Release Hub</h2>
+          <p>
+            This section updates from your repository releases so visitors can instantly see the latest version and
+            download the correct files.
+          </p>
+
+          <div class="release-meta-grid">
+            <div class="release-meta-item">
+              <span>Latest Version</span>
+              <strong id="latestVersion">Checking...</strong>
+            </div>
+            <div class="release-meta-item">
+              <span>Published</span>
+              <strong id="latestPublished">-</strong>
+            </div>
+            <div class="release-meta-item">
+              <span>Status</span>
+              <strong id="latestStatus" class="status-indicator status-indicator-info">Loading</strong>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a
+              id="latestPortableBtn"
+              class="btn btn-primary"
+              href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Portable.exe"
+              >Latest Portable</a
+            >
+            <a
+              id="latestSetupBtn"
+              class="btn btn-secondary"
+              href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Setup.exe"
+              >Latest Installer</a
+            >
+            <a id="latestReleasePageBtn" class="btn btn-ghost" href="https://github.com/trxpworks/neon-overlay/releases/latest"
+              >Open Release Page</a
+            >
+          </div>
+        </article>
+
+        <article class="release-feed reveal">
+          <div class="release-feed-head">
+            <h3>Recent Releases</h3>
+            <p id="releaseFeedHint">Loading release timeline...</p>
+          </div>
+          <div id="releaseList" class="release-list">
+            <article class="release-item release-item-skeleton">
+              <div class="skeleton-line"></div>
+              <div class="skeleton-line short"></div>
+            </article>
+            <article class="release-item release-item-skeleton">
+              <div class="skeleton-line"></div>
+              <div class="skeleton-line short"></div>
+            </article>
+          </div>
+        </article>
       </section>
 
       <section id="download" class="download-panel reveal">
         <div>
           <p class="eyebrow">Download Neon Overlay</p>
           <h2>Ready To Run</h2>
-          <p>Grab portable for quick launch or installer for a standard desktop setup.</p>
+          <p>
+            Portable build for instant launch. Installer build for a normal desktop setup. Both links always point to
+            your latest published release.
+          </p>
         </div>
         <div class="download-actions">
-          <a class="btn btn-primary" href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Portable.exe">Portable EXE</a>
-          <a class="btn btn-secondary" href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Setup.exe">Setup EXE</a>
+          <a
+            id="downloadPortableBtn"
+            class="btn btn-primary"
+            href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Portable.exe"
+            >Portable EXE</a
+          >
+          <a
+            id="downloadSetupBtn"
+            class="btn btn-secondary"
+            href="https://github.com/trxpworks/neon-overlay/releases/latest/download/Neon-Overlay-Setup.exe"
+            >Setup EXE</a
+          >
         </div>
       </section>
     </main>
